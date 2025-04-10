@@ -1,5 +1,6 @@
 # hERG_Blokers_Classification  
 ## Environment
+
 The most important python packages are:  
 
 python == 3.11.8    
@@ -13,4 +14,9 @@ numpy == 1.26.4
 
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.  
 
-## Data Folder
+## Mains  
+data: hERG blockade dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
+
+fpgnn: main components of the model.  
+
+
