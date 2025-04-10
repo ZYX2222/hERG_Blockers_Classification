@@ -29,12 +29,38 @@ Args:
 data_path : The path of input CSV file. E.g. input.csv  
 dataset_type : The type of dataset. E.g. classification or regression  
 save_path : The path to save output model. E.g. model_save  
-log_path : The path to record and save the result of training. E.g. log  
+log_path : The path to record and save the result of training. E.g. log 
+
 E.g.  
 
 python train.py  --data_path data/test.csv  --dataset_type classification  --save_path model_save  --log_path log  
 
 ### Hyperparameters Optimization  
+Use hyper_opti.py  
+
+Args:  
+
+data_path : The path of input CSV file. E.g. input.csv  
+dataset_type : The type of dataset. E.g. classification or regression  
+save_path : The path to save output model. E.g. model_save  
+log_path : The path to record and save the result of hyperparameters optimization. E.g. log  
+
+E.g.  
+
+python hyper_opti.py  --data_path data/test.csv  --dataset_type classification  --save_path model_save  --log_path log  
+
+### Predict  
+Use predict.py  
+
+Args:  
+
+predict_path : The path of input CSV file to predict. E.g. input.csv  
+result_path : The path of output CSV file. E.g. output.csv  
+model_path : The path of trained model. E.g. model_save/model.pt  
+
+E.g.  
+
+python predict.py  --predict_path data/test.csv  --model_path model_save/test.pt  --result_path result.csv  
 
 
 
