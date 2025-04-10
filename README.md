@@ -11,4 +11,6 @@ scikit-learn == 1.4.1.post1
 hyperopt == 0.2.7    
 numpy == 1.26.4  
 
+To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.  
+
 ## Data Folder
