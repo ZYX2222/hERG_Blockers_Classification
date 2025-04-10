@@ -1,4 +1,4 @@
-# hERG_Blokers_Classification  
+# hERG_Blockers_Classification  
 ## Environment
 
 The most important python packages are:  
