@@ -15,13 +15,13 @@ numpy == 1.26.4
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.  
 
 ## Mains  
-data: hERG blockade dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
+### data  
+hERG blockade dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
 
-Note: For training, the csv file should includes SMILES and label;  
+Note: For training, the csv file should includes SMILES and label; for predicting, the csv file should includes SMILES.   
 
-for predicting, the csv file should includes SMILES.  
-
-fpgnn: main components of the model.  
+### fpgnn  
+main components of the model.  
 
 ## Commands  
 
