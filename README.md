@@ -19,4 +19,23 @@ data: hERG blockade dataset (csv file contains SMILES and class label) for devel
 
 fpgnn: main components of the model.  
 
+## Commands  
+
+### train  
+Use train.py  
+
+Args:  
+
+data_path : The path of input CSV file. E.g. input.csv  
+dataset_type : The type of dataset. E.g. classification or regression  
+save_path : The path to save output model. E.g. model_save  
+log_path : The path to record and save the result of training. E.g. log  
+E.g.  
+
+python train.py  --data_path data/test.csv  --dataset_type classification  --save_path model_save  --log_path log  
+
+### Hyperparameters Optimization  
+
+
+
 
