@@ -16,12 +16,15 @@ To replicate or devleop models more conveniently, the environment file <environm
 
 ## Mains  
 ### data  
-hERG blockade dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
+The hERG blockade dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
 
 Note: For training, the csv file should includes SMILES and label; for predicting, the csv file should includes SMILES.   
 
 ### fpgnn  
-main components of the model.  
+Main components of the model.  
+
+### saved_model  
+The best trained model (model.pt).
 
 ## Commands  
 
