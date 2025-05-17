@@ -73,11 +73,13 @@ model_path : The path of trained model. E.g. saved_model/model.pt
 
 E.g.  
 
-python predict.py  --predict_path data/test.csv  --model_path saved_model/test.pt  --result_path result.csv  
+python predict.py  --predict_path data/test.csv  --model_path saved_model/model.pt  --result_path result.csv  
 
 
 ## Note  
-The code origninated from previous reference: 10.1093/bib/bbac408, with the addition or replacement of counted fingerprint inputs in the current study.
+The code origninated from previous reference: 10.1093/bib/bbac408
+        
+        , with the addition or replacement of counted fingerprint inputs in the current study.
 
 
 
