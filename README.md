@@ -76,7 +76,7 @@ E.g.
 python predict.py  --predict_path data/test.csv  --model_path saved_model/model.pt  --result_path result.csv  
 
 
-## Note  
+## Acknowledgments  
 The code origninated from previous reference: 10.1093/bib/bbac408, with the addition or replacement of counted fingerprint inputs in the current study.
 
 
