@@ -30,7 +30,7 @@ Note: For training, the csv file should includes SMILES and label; for predictin
 Main components of the model.  
 
 ### saved_model  
-The best trained model (model.pt).
+The best trained classification model (model.pt).
 
 ## Commands  
 
