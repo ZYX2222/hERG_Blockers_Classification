@@ -22,7 +22,13 @@ conda create --name new_env --file environment.txt
 
 ## Mains  
 ### data  
-The dataset (csv file contains SMILES and class label) for developing models, which can be replaced by your own dataset;  
+The dataset (csv file contains SMILES and class/active label) for developing models, which can be replaced by your own dataset; 
+
+```hERG_C_16543.csv```: the present enlarged dataset on hERG blockade for constructed classification DFNN model;  
+
+```hERG_C_12620.csv```: the dataset on hERG blockade retrieved form literature for constructing classification DFNN model (denoted as Model-K) for fair comparison;  
+
+```hERG_R_10798.csv```: the dataset on hERG IC50 values retrieved form literature for constructed regression DFNN model, denoted as (Model-Y) for fair comparison.
 
 Note: For training, the csv file should includes SMILES and label; for predicting, the csv file should includes SMILES.   
 
