@@ -36,7 +36,8 @@ Note: For training, the csv file should includes SMILES and label; for predictin
 Main components of the model.  
 
 ### saved_model  
-The best trained classification model (model.pt).
+
+```model.pt```:The best trained classification DFNN model based on the dataset of hERG_C_16543.csv.
 
 ## Commands  
 
