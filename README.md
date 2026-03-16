@@ -39,10 +39,6 @@ Main components of the model.
 
 ```model.pt```: The best trained classification DFNN model based on the dataset of hERG_C_16543.csv.  
 
-```Model-K.pt```: Model-K based on the dataset of hERG_C_12620.csv.   
-
-```Model-Y.pt```: Model-Y based on the dataset of hERG_R_10798.csv. 
-
 ## Commands  
 
 ### train  
