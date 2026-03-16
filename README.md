@@ -1,3 +1,11 @@
+# hERG_binding_regressor   
+
+The files related to the paper published in Environmental Science and Technology:   
+
+"Counted Fingerprint-Enhanced Graph Neural Network Models Enable Accurate Screening of hERG Blockers from Diverse Categories of Chemicals"
+
+DOI: 10.1021/acs.est.5c16775     
+
 # hERG_Blockers_Classification  
 ## Environment
 
